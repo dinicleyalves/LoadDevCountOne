@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+body {
+    background-color: #EDEDED;
+    color:#868686;
+    font-family: 'Lobster', cursive;
+    font-size: 10px; 
+    text-align: center;
+    text-shadow:1px 1px 0px #fff; 
+}
+div.anuncio {
+    width: 1024px;
+    height: 135px;
+    margin: auto;
+    border-bottom: 2px solid #E0E0E0;
+}
+div.anuncio h1  {
+    color: coral;
+    font-size: 60px;
+    margin-top: 8px;
+    font-weight: 600;
+}
+div.mensagem {
+    width: 1024px;
+    height: 190px;
+    margin: auto;
+}
+div.mensagem h2 {
+    font-family: fantasy;
+    font-size: 45px;
+    text-align: left;
+    margin: 190px 0px 0px 180px;
+    padding-top: 4px;
+}
+div.mensagem h3 {
+    font-family: monospace;
+    font-size: 28px;
+    text-align: left;
+    text-align: center;
+    padding-left: 30px;
+}
+div.mensagem h3 a {
+    text-decoration: none;
+    color: #868686;
+    padding-top: 2px;  
+}
+div.mensagem img {
+    float: right;
+    padding-right: 70px;
+    margin-top: -280px;
+    width: 320px;
+    height: 320px;
+    padding-bottom: 20px;
+}
+footer.copyright {
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-top: 2px;
+    text-align: center;
+    clear: both;
+}
+
+
